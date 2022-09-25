@@ -1,4 +1,4 @@
-# TalentHackathonBlockchain
+# Proyecto Para el Talent Hackathon Blockchain
 
 # Introducción general.
 
