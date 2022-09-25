@@ -21,6 +21,8 @@ En Diseño
 
 # Arquitectura de la  DApp  Defi-Pay
 
+![Image text](https://github.com/pablojavaprogramador/TalentHackathonBlockchain/blob/main/imagenes/Arquitectura.jpg?raw=true)
+
 
 
 ## Pasos para deployar  el  proyecto pendiente.
