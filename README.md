@@ -49,5 +49,6 @@ En Diseño
 ### Requisitos
 - En tu navegador instalar MetaMask  (para poder ejecutar los Smart Contracts)
 
+![Image text](https://github.com/pablojavaprogramador/TalentHackathonBlockchain/blob/main/imagenes/metamask.png?raw=true)
 
 ## Conclusion  
