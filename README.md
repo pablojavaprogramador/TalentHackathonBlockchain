@@ -10,9 +10,10 @@ A nivel de front-end, la aplicación consta de varios componentes que forman un 
 ### Authors
        Pablo Ernesto Cortés Palma
 
-### Mockup Propuesto 
+### Mockup WEB  Propuesto 
 
-       ![Image text](https://github.com/pablojavaprogramador/TalentHackathonBlockchain/blob/main/imagenes/Flujo%20de%20Negocio.png?raw=true)
+
+![Image text](https://github.com/pablojavaprogramador/TalentHackathonBlockchain/blob/main/imagenes/Flujo%20de%20Negocio.png?raw=true)
 
 
 ### Herramientas  y Fuentes que se utilizaran
