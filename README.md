@@ -11,7 +11,21 @@ A nivel de front-end, la aplicación consta de varios componentes que forman un 
        Pablo Ernesto Cortés Palma
        
 
-### Herramientas
+### Herramientas  y Fuentes que se utilizaran
+
+-[Herramientas de Mayusculas a Minusculas](https://mayusculasminusculas.com/ "Mayusculas a Minusculas Herramienta")
+
+-[Faucet](https://faucet.rsk.co/ "faucet")
+
+-[Test Net](https://explorer.testnet.rsk.co/ "rsk explorer")
+
+-[Documentacion de Solid ](https://docs.soliditylang.org/_/downloads/en/v0.8.4/pdf/ "Documentacion Solid")
+
+-[Remix Creacion de contratos ](http://remix.ethereum.org "Remix")
+
+
+
+### Lenguajes Utilizados
 - `node`: 
 - `npm`: 
 - `metamask`: 
@@ -49,5 +63,6 @@ En Diseño
 ### Requisitos
 - En tu navegador instalar MetaMask  (para poder ejecutar los Smart Contracts)
 
+![Image text](https://github.com/pablojavaprogramador/TalentHackathonBlockchain/blob/main/imagenes/metamask.png?raw=true)
 
 ## Conclusion  
