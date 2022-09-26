@@ -2,6 +2,12 @@
 
 # Introducción general.
 
+La importancia de las remesas sobre todo en las zonas rurales donde más se necesitan y donde ofrecen más oportunidades para lograr la transformación rural
+
+A pesar de la crisis de la COVID-19 y la inestabilidad política, el monto total de los flujos de remesas ha seguido creciendo. 
+
+Los trabajadores migrantes envían a sus hogares, de media, entre USD 200 y USD 300 cada uno o dos meses. Esto supone tan solo el 15 % de sus ingresos (el resto permanece en sus países de acogida). Sin embargo, esos envíos pueden representar hasta el 60 % de los ingresos totales de los hogares, por lo que constituyen un salvavidas para millones de familia. 
+
 
 # Descripción del Proyecto.
 
