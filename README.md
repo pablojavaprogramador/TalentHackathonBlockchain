@@ -21,6 +21,8 @@ A nivel de front-end, la aplicación consta de varios componentes que forman un 
 
 -[Documentacion de Solid ](https://docs.soliditylang.org/_/downloads/en/v0.8.4/pdf/ "Documentacion Solid")
 
+-[Remix Creacion de contratos ](http://remix.ethereum.org "Remix")
+
 
 
 ### Lenguajes Utilizados
