@@ -11,7 +11,19 @@ A nivel de front-end, la aplicación consta de varios componentes que forman un 
        Pablo Ernesto Cortés Palma
        
 
-### Herramientas
+### Herramientas  y Fuentes que se utilizaran
+
+-[Herramientas de Mayusculas a Minusculas](https://mayusculasminusculas.com/ "Mayusculas a Minusculas Herramienta")
+
+-[Faucet](https://faucet.rsk.co/ "faucet")
+
+-[Test Net](https://explorer.testnet.rsk.co/ "rsk explorer")
+
+-[Documentacion de Solid ](https://docs.soliditylang.org/_/downloads/en/v0.8.4/pdf/ "Documentacion Solid")
+
+
+
+### Lenguajes Utilizados
 - `node`: 
 - `npm`: 
 - `metamask`: 
