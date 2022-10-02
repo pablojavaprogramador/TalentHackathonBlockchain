@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Defi-Pay</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/cover/"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="./index.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Defi-Pay</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#transacciones">Transacciones</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </nav>
+        </div>
+      </header>
+      <br />
+      <br />
+
+      <main class="px-3">
+        <h1>Realiza tu envio de Remesas Aqui</h1>
+        <p class="lead">
+          Realiza o Recibe tu remesa en Defy-Pay solo tienes que conectar tu
+          billetera y realizar el envio
+        </p>
+        <p class="lead">
+          <a
+            href="#"
+            class="btn btn-lg btn-secondary fw-bold border-white bg-white"
+            id="myButton"
+            >Conectar a la Billetera</a
+          >
+        </p>
+        <br />
+        <br />
+        <!--
+    <form id="fossrm" class="form-inline" role="form">
+      <input class="form-control" id="input" type="text" />
+      <input type="submisst" class="btn btn-primary" value="Envia Remesas" />
+   
+    </form>
+
+    -->
+
+        <h3>Envio de Remesa</h3>
+         <form id="form" class="form-inline" role="form">
+        <!--  <form action="/" method="POST">-->
+          <table>
+            <tr>
+              <label for="name">Cuenta</label>
+              <br />
+              <input type="text" id="cuenta" name="user_name" />
+            </tr>
+            <br />
+            <tr>
+              <label for="monto">Monto</label>
+              <br />
+              <input type="text" id="monto" name="user_monto" />
+            </tr>
+            <br />
+            <tr>
+              <label for="mensaje">Mensaje:</label>
+              <br />
+              <input type="text" id="mensaje" name="user_mensaje" />
+            </tr>
+          </table>
+          <br>
+          <br>
+          <input type="submit" class="btn btn-primary" value="Enviar Remesa" />
+        </form>
+      </main>
+
+      <br />
+      <br />
+      <br />
+      <main class="px-3">
+        <h1>Transacciones Realizadas</h1>
+
+        <label id="transacciones"></label>
+        <label id="lastInfo"></label>
+
+        <p class="lead">Realiza o Recibe tu remesa</p>
+
+        <table class="table border-white bg-white">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Cuenta Origen</th>
+              <th scope="col">Cuenta Destino</th>
+              <th scope="col">Monto</th>
+              <th scope="col">Mensaje</th>
+              <th scope="col">Estatus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>0xf63172932c17465ea743e6fda8c72b7418e43794</td>
+              <td>0x3881dd3e88BC87D301e7e085b2e658a8c3D4112D</td>
+              <td>1</td>
+              <td>Construccion</td>
+              <td>Enviado</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>0xf63172932c17465ea743e6fda8c72b7418e43794</td>
+              <td>0x3881dd3e88BC87D301e7e085b2e658a8c3D4112D</td>
+              <td>1</td>
+              <td>Viaticos</td>
+              <td>Enviado</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>0xf63172932c17465ea743e6fda8c72b7418e43794</td>
+              <td>0x3881dd3e88BC87D301e7e085b2e658a8c3D4112D</td>
+              <td>1</td>
+              <td>Utiles Escolares</td>
+              <td>Enviado</td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+
+      <br />
+      <br />
+      <br />
+      <main class="px-3">
+      <h1>Contacto</h1>
+      <label id="contacto"></label>
+
+      <form action="/my-handling-form-page" method="post">
+        <table>
+          <tr>
+            <label for="name">Nombre:</label>
+            <br />
+            <input type="text" id="name" name="user_name" />
+          </tr>
+          <br />
+          <tr>
+            <label for="mail">Correo electrónico:</label>
+            <br />
+            <input type="email" id="mail" name="user_mail" />
+          </tr>
+          <br />
+          <tr>
+            <label for="msg">Mensaje:</label>
+            <br />
+            <textarea id="msg" name="user_message"></textarea>
+          </tr>
+          <br>
+          <br>
+          <input type="submit" class="btn btn-primary" value="Enviar Mensaje" />
+        </table>
+      </form>
+    </main>
+      <br />
+      <br />
+      <br />
+
+      <footer class="mt-auto text-white-50">
+        <p>
+          Cover template for
+          <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>,
+          by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
