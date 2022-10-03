@@ -22,6 +22,13 @@ A nivel de front-end, la aplicación consta de varios componentes que forman un 
 ![Image text](https://github.com/pablojavaprogramador/TalentHackathonBlockchain/blob/main/imagenes/Flujo%20de%20Negocio.png?raw=true)
 
 
+### Links de Mockup WEB y Movil
+
+-[Mockup Movil](https://previewer.adalo.com/1bf5fe37-53af-4f5e-b3ee-f68c1a915d8c "Mockup Movil")
+
+-[Mockup Web](https://previewer.adalo.com/31bb3d2a-dedd-417e-a452-5ae0c406dbf2?target=818468a1bfad492599706dafa106d579&params=%7B%7D "Mockup Web")
+
+
 ### Herramientas  y Fuentes que se utilizaran
 
 -[Herramientas de Mayusculas a Minusculas](https://mayusculasminusculas.com/ "Mayusculas a Minusculas Herramienta")
