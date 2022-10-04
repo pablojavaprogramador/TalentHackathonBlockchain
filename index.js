@@ -30,6 +30,8 @@ const getContract = async web3 => {
 }
 
 
+
+
 //Smart contract functions
 const getTransferCount = async (result, contract) => {
   result = await contract.methods.getTransferCount().call()
@@ -82,10 +84,14 @@ $('#concepto').on('change', e => {
 async function quoteApp() {
   const web3 = await getWeb3()
   const accounts = await web3.eth.getAccounts()
+  
   const contract = await getContract(web3)
   let quote
 console.info('cuenta origen ',accounts)
 console.info('idcontracto inteligente',contract)
+
+web3.eth.getBalance('0xF63172932c17465EA743e6FDA8C72b7418E43794')
+.then(console.log);
 
 getTransferCount(quote, contract)
 getAllTransferencia(quote, contract)
