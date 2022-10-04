@@ -46,28 +46,32 @@ const getAllTransferencia = async (result, contract) => {
 
   
 const envioRemesas = async (result, contract, accounts) => {
-  let cuenta
-  let monto
-  let mensaje
-  let keyword
+
+ 
+
+let inputCuenta
+$('#cuenta').on('change', e => {
+  inputCuenta = e.target.value
+  console.info('Cuenta',inputCuenta)
+})
 
 
-  $('#cuenta').on('change', e => {
-    cuenta = e.target.value
-  })
+let inputMonto
+$('#monto').on('change', e => {
+  inputMonto = e.target.value
+  console.info('Monto',inputMonto)
+})
 
-  $('#monto').on('change', e => {
-    monto = e.target.value
-  })
-  $('#mensaje').on('change', e => {
-    mensaje = e.target.value
-  })
-
+let inputMensaje
+$('#mensaje').on('change', e => {
+  inputMensaje = e.target.value
+  console.info('Mensaje',inputMensaje)
+})
 
   $('#form').on('submit', async e => {
     e.preventDefault()
-    console.info(e)
-    result =  await contract.methods.addToBlock('0x3881dd3e88BC87D301e7e085b2e658a8c3D4112D','1','dsad','keyword').send({ from: accounts[0] })
+    
+    result =  await contract.methods.addToBlock(inputCuenta,'1',inputMensaje,'keyword').send({ from: accounts[0] })
    // getQuote(result, contract)
   })
 }
