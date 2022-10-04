@@ -18,7 +18,7 @@ const getWeb3 = () => {
   })
 }
 
-const contractAddress = '0xe8199be9F64A76509E69d257d593F104FCcc51D6'
+const contractAddress = '0xdd97499Fa44436325b6B1fCD702daC1e6aAf87BC'
 const abi = JSON.parse(
   '[{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"},{"indexed":false,"internalType":"string","name":"message","type":"string"},{"indexed":false,"internalType":"uint256","name":"timestamp","type":"uint256"},{"indexed":false,"internalType":"string","name":"keyword","type":"string"}],"name":"Transfer","type":"event"},{"inputs":[{"internalType":"address payable","name":"addressTo","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"},{"internalType":"string","name":"message","type":"string"},{"internalType":"string","name":"keyword","type":"string"}],"name":"addToBlock","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"getAllTransfer","outputs":[{"components":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"},{"internalType":"string","name":"message","type":"string"},{"internalType":"uint256","name":"timestamp","type":"uint256"},{"internalType":"string","name":"keyword","type":"string"}],"internalType":"struct Transacciones.TransferStruct[]","name":"","type":"tuple[]"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getTransferCount","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}]',
 )
@@ -62,16 +62,16 @@ $('#monto').on('change', e => {
   console.info('Monto',inputMonto)
 })
 
-let inputMensaje
-$('#mensaje').on('change', e => {
-  inputMensaje = e.target.value
-  console.info('Mensaje',inputMensaje)
+let inputConcepto
+$('#concepto').on('change', e => {
+  inputConcepto = e.target.value
+  console.info('concepto',inputConcepto)
 })
 
   $('#form').on('submit', async e => {
     e.preventDefault()
     
-    result =  await contract.methods.addToBlock(inputCuenta,'1',inputMensaje,'keyword').send({ from: accounts[0] })
+    result =  await contract.methods.addToBlock(inputCuenta,'1',inputConcepto,'keyword').send({ from: accounts[0] })
    // getQuote(result, contract)
   })
 }
