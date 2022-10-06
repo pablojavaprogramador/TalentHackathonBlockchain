@@ -83,4 +83,8 @@ En Diseño
 
 ![Image text](https://github.com/pablojavaprogramador/TalentHackathonBlockchain/blob/main/imagenes/metamask.png?raw=true)
 
-## Conclusion  
+## Instalacion
+-Instalar metamask
+-deployar el contracto en test net
+-Ejecutar npm install para descargar las librerias
+-Ejecutar npm start
