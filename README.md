@@ -86,5 +86,5 @@ En Diseño
 ### Instalacion
 - `Instalar metamask`:
 - `deployar el contracto en test net`:
-- 'Ejecutar npm install para descargar las librerias':
-- 'Ejecutar npm start':
+- `Ejecutar npm install para descargar las librerias`:
+- `Ejecutar npm start`:
